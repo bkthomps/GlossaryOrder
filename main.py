@@ -68,4 +68,6 @@ for i in range(1, len(sys.argv)):
         continue
     print("Sorting file " + file_name)
     sort_file(file_name)
+    words.clear()
+    definitions.clear()
     print("Done sorting file " + file_name)
